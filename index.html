@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Gallery</title>
+</head>
+
+<body>
+    <h1 class="title">Responsive Gallery</h1>
+    <div class="container">
+        <div class="photo-column">
+            <!-- Random Images from Unsplash -->
+            <img src="https://source.unsplash.com/random?nature&1" onclick="OpenModal(this.src)" class="image" />
+            <img src="https://source.unsplash.com/random?nature=2" onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?nature=3" onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?nature=4" onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?nature=5" onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?nature=6" onclick="OpenModal()" class="image" />
+        </div>
+        <div class="photo-column">
+            <img src="https://source.unsplash.com/random?city=7"   onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?car=8"    onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?village=9"onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?city=10"  onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?city=11"  onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?city=12"  onclick="OpenModal()" class="image" />
+        </div>
+        <div class="photo-column">
+            <img src="https://source.unsplash.com/random?car=13"  onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?city=14" onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?tree=15" onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?tree=16" onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?car=17"  onclick="OpenModal()" class="image" />
+            <img src="https://source.unsplash.com/random?city=18" onclick="OpenModal()" class="image" />
+        </div>
+    </div>
+
+
+    <div class="socials">
+        <a href="allankipkemei.netlify.app" target="_blank" title="Visit my website"><i
+                class="fa-solid fa-globe"></i></a>
+        <a href="https://github.com/Allan-Kipkemei" target="_blank" title="Visit my Github"><i
+                class="fa-brands fa-github"></i></a>
+    </div>
+    <script src='index.js'></script>
+</body>
+
+</html>
